@@ -61,12 +61,13 @@ body {
 }
 
 .resume .resume_left .regular {
-  color: #f9b7fa;
+  color: #fff;
 }
 
+/* seperating lines */
 .resume .resume_item {
   padding: 25px 0;
-  border-bottom: 2px solid #f9b7fa;
+  border-bottom: 2px solid #f0000f;
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -103,14 +104,16 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* basic info text */
 .resume .resume_left ul li .data {
-  color: #f9b7fa;
+  color: #fff;
 }
 
-.resume .resume_left .resume_skills ul li {
+/* skills text */
+.resume .resume_left .resume_skills ul li { 
   display: flex;
   margin-bottom: 10px;
-  color: #f9b7fa;
+  color: #fff;
   justify-content: space-between;
   align-items: center;
 }
@@ -119,11 +122,12 @@ body {
   width: 25%;
 }
 
+/* skills slider color */
 .resume .resume_left .resume_skills ul li .skill_progress {
   width: 60%;
   margin: 0 5px;
   height: 5px;
-  background: #b400b7;
+  background: #5adcb1;
   position: relative;
 }
 
